@@ -1,0 +1,36 @@
+[
+  {
+    "message": "俺は言葉なく[txruby text=\"しゅこう\"]首肯[txruby]して、扉に手をかける。"
+  },
+  {
+    "names": [
+      "奏命",
+      "中央に座る女子学生"
+    ],
+    "message": "「あなたの氏名は[txruby text=\"ふわの\"]布波能[txruby][txruby text=\"なぎ\"]凪[txruby]。珠賀良区にある\r\nピーチ・フィールズという名の施設で育った孤児」"
+  },
+  {
+    "name": "奏命",
+    "message": "「私は[txruby text=\"いっしき\"]一色[txruby][txruby text=\"かなめ\"]奏命[txruby]。この桜元学園の学生会長よ」"
+  },
+  {
+    "name": "奏命",
+    "message": "「前方、向かって右側のこの子は、[txruby text=\"やと\"]夜刀[txruby]くくる。\r\n文化部の総括を担っているわ」"
+  },
+  {
+    "name": "イヴ",
+    "message": "「私は[txruby text=\"たてしな\"]蓼科[txruby]イヴ、運動部の総括を務めてます。\r\nこれからよろしくね」"
+  },
+  {
+    "name": "奏命",
+    "message": "「私の後ろにいる二人。向かって左が、\r\n学生会副会長の[txruby text=\"ほうじょう\"]北条[txruby][txruby text=\"はな\"]花[txruby]」"
+  },
+  {
+    "name": "奏命",
+    "message": "「向かって右が、\r\n学生会書記の[txruby text=\"ほうじょう\"]北条[txruby][txruby text=\"そら\"]空[txruby]よ」"
+  },
+  {
+    "name": "奏命",
+    "message": "「最後は、既にご存知のようだけれど、\r\n風紀委員長の[txruby text=\"しどう\"]獅童[txruby][txruby text=\"りゅうじ\"]龍司[txruby]よ」"
+  }
+]

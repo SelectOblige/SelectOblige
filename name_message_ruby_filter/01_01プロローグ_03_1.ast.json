@@ -1,0 +1,19 @@
+[
+  {
+    "message": "説明だけじゃなく[txruby text=\"こころ\"]心[txruby][txruby text=\"くば\"]配[txruby]りすらパーフェクトな機械に、\r\n俺は首を傾げてしまった。"
+  },
+  {
+    "name": "ファイブ",
+    "message": "「今向かっている街は、\r\n[txruby text=\"・・・・・\"]ヴァルハラ[txruby]と呼ばれている場所ですの」"
+  },
+  {
+    "message": "無関係の者を容易に立ち入らせないよう、そびえ立つ\r\n分厚い[txruby text=\"へい\"]塀[txruby]に沿うように車が移動していく。"
+  },
+  {
+    "names": [
+      "イヴ",
+      "蓼科"
+    ],
+    "message": "「はじめまして、私は[txruby text=\"たてしな\"]蓼科[txruby]といいます」"
+  }
+]
