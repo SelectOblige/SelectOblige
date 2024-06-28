@@ -8,5 +8,5 @@ Patch by [@Select_Oblige](https://t.me/Select_Oblige)
 
 ----------------------------------------
 
-- `script_jp` 為遊戲原始文本
-
+- `script_jp` 為遊戲原始劇本
+- `name_message` 為劇本拆出來的{name messsage}格式的JSON
