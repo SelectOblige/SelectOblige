@@ -2,30 +2,6 @@ astver = 2.0
 astname = "ast"
 ast = {
 	block_00000 = {
-		{"select", label="next", text="select"},
-		{"select", file="02_奏命_18h4", text="select"},
-		{"select", file="03_イヴ_12h2", text="select"},
-		{"select", mode="sys", name="select_trial1"},
-		{"text"},
-		select = {
-			ja = {
-				"本編をプレイ",
-				"奏命のHシーンをプレイ",
-				"イヴのHシーンをプレイ",
-			},
-		},
-		linknext = "block_00001",
-		line = 5,
-	},
-	block_00001 = {
-		{"bgm", stop=1, time=3000},
-		{"se", stop=1, id=-1, time=3000},
-		{"vostop", stop=1, time=3000},
-		{"ntclear"},
-		{"cgdel", id=-1},
-		{"bg", time=3000, file="black", path=":bg/"},
-		{"cacheclear"},
-		{"ex", time=1000, func="wait"},
 		{"savetitle", text="始まりの鐘"},
 		{"bg", time=2000, file="black", path=":bg/"},
 		{"ex", time=1000, func="wait"},
@@ -42,11 +18,10 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00000",
-		linknext = "block_00002",
-		line = 24,
+		linknext = "block_00001",
+		line = 14,
 	},
-	block_00002 = {
+	block_00001 = {
 		{"bgm", file="bgm18"},
 		{"bg", y=360, speed=150000, time=2000, file="zbg035c", path=":bg/", x2=100, y2=-360, x=100, ax=1280, ay=720, bx=-640, by=-360},
 		{"text"},
@@ -64,11 +39,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00001",
-		linknext = "block_00003",
-		line = 32,
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 22,
 	},
-	block_00003 = {
+	block_00002 = {
 		{"text"},
 		text = {
 			vo = {
@@ -82,11 +57,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00002",
-		linknext = "block_00004",
-		line = 35,
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 25,
 	},
-	block_00004 = {
+	block_00003 = {
 		{"text"},
 		text = {
 			vo = {
@@ -100,11 +75,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00003",
-		linknext = "block_00005",
-		line = 38,
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 28,
 	},
-	block_00005 = {
+	block_00004 = {
 		{"text"},
 		text = {
 			ja = {
@@ -115,11 +90,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00004",
-		linknext = "block_00006",
-		line = 41,
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 31,
 	},
-	block_00006 = {
+	block_00005 = {
 		{"text"},
 		text = {
 			ja = {
@@ -130,11 +105,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00005",
-		linknext = "block_00007",
-		line = 44,
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 34,
 	},
-	block_00007 = {
+	block_00006 = {
 		{"text"},
 		text = {
 			vo = {
@@ -148,11 +123,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00006",
-		linknext = "block_00008",
-		line = 47,
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 37,
 	},
-	block_00008 = {
+	block_00007 = {
 		{"msgoff"},
 		{"cgdel", id=-1, sync=0},
 		{"fg", mode=-2, sync=0},
@@ -170,11 +145,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00007",
-		linknext = "block_00009",
-		line = 63,
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 53,
 	},
-	block_00009 = {
+	block_00008 = {
 		{"text"},
 		text = {
 			ja = {
@@ -187,11 +162,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00008",
-		linknext = "block_00010",
-		line = 65,
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 55,
 	},
-	block_00010 = {
+	block_00009 = {
 		{"text"},
 		text = {
 			ja = {
@@ -203,11 +178,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00009",
-		linknext = "block_00011",
-		line = 69,
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 59,
 	},
-	block_00011 = {
+	block_00010 = {
 		{"text"},
 		text = {
 			ja = {
@@ -217,11 +192,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00010",
-		linknext = "block_00012",
-		line = 71,
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 61,
 	},
-	block_00012 = {
+	block_00011 = {
 		{"text"},
 		text = {
 			ja = {
@@ -231,11 +206,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00011",
-		linknext = "block_00013",
-		line = 73,
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 63,
 	},
-	block_00013 = {
+	block_00012 = {
 		{"text"},
 		text = {
 			ja = {
@@ -245,11 +220,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00012",
-		linknext = "block_00014",
-		line = 75,
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 65,
 	},
-	block_00014 = {
+	block_00013 = {
 		{"msgoff"},
 		{"cgdel", id=-1, sync=0},
 		{"fg", mode=-2, sync=0},
@@ -264,11 +239,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00013",
-		linknext = "block_00015",
-		line = 85,
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 75,
 	},
-	block_00015 = {
+	block_00014 = {
 		{"text"},
 		text = {
 			ja = {
@@ -278,11 +253,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00014",
-		linknext = "block_00016",
-		line = 87,
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 77,
 	},
-	block_00016 = {
+	block_00015 = {
 		{"text"},
 		text = {
 			ja = {
@@ -292,11 +267,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00015",
-		linknext = "block_00017",
-		line = 89,
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 79,
 	},
-	block_00017 = {
+	block_00016 = {
 		{"text"},
 		text = {
 			ja = {
@@ -306,11 +281,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00016",
-		linknext = "block_00018",
-		line = 91,
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 81,
 	},
-	block_00018 = {
+	block_00017 = {
 		{"text"},
 		text = {
 			ja = {
@@ -324,11 +299,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00017",
-		linknext = "block_00019",
-		line = 93,
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 83,
 	},
-	block_00019 = {
+	block_00018 = {
 		{"text"},
 		text = {
 			ja = {
@@ -338,11 +313,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00018",
-		linknext = "block_00020",
-		line = 95,
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 85,
 	},
-	block_00020 = {
+	block_00019 = {
 		{"text"},
 		text = {
 			ja = {
@@ -352,11 +327,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00019",
-		linknext = "block_00021",
-		line = 97,
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 87,
 	},
-	block_00021 = {
+	block_00020 = {
 		{"msgoff"},
 		{"quake", dir="h"},
 		{"se", file="seぶつかる(重)、タックル", id=1},
@@ -377,11 +352,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00020",
-		linknext = "block_00022",
-		line = 110,
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 100,
 	},
-	block_00022 = {
+	block_00021 = {
 		{"cgdel", id=-1, sync=0},
 		{"fg", mode=-2, sync=0},
 		{"bg", file="cg_pl_03", lv=8, id=8, time=200, path=":cg/", sync=0},
@@ -399,11 +374,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00021",
-		linknext = "block_00023",
-		line = 119,
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 109,
 	},
-	block_00023 = {
+	block_00022 = {
 		{"text"},
 		text = {
 			vo = {
@@ -419,11 +394,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00022",
-		linknext = "block_00024",
-		line = 123,
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 113,
 	},
-	block_00024 = {
+	block_00023 = {
 		{"quake", dir="h"},
 		{"se", file="seぶつかる(重)、タックル", id=1},
 		{"text"},
@@ -439,11 +414,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00023",
-		linknext = "block_00025",
-		line = 129,
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 119,
 	},
-	block_00025 = {
+	block_00024 = {
 		{"text"},
 		text = {
 			vo = {
@@ -457,11 +432,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00024",
-		linknext = "block_00026",
-		line = 132,
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 122,
 	},
-	block_00026 = {
+	block_00025 = {
 		{"text"},
 		text = {
 			vo = {
@@ -475,11 +450,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00025",
-		linknext = "block_00027",
-		line = 135,
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 125,
 	},
-	block_00027 = {
+	block_00026 = {
 		{"quake", mode="mw"},
 		{"text"},
 		text = {
@@ -494,11 +469,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00026",
-		linknext = "block_00028",
-		line = 139,
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 129,
 	},
-	block_00028 = {
+	block_00027 = {
 		{"quake", mode="mw"},
 		{"text"},
 		text = {
@@ -513,11 +488,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00027",
-		linknext = "block_00029",
-		line = 143,
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 133,
 	},
-	block_00029 = {
+	block_00028 = {
 		{"se", stop=1, time=500, id=1},
 		{"bg", file="black", lv=9, id=9, alpha=100, time=1000, path=":bg/"},
 		{"text"},
@@ -530,11 +505,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00028",
-		linknext = "block_00030",
-		line = 149,
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 139,
 	},
-	block_00030 = {
+	block_00029 = {
 		{"bg", file="black", lv=9, id=9, alpha=150, time=1000, path=":bg/"},
 		{"text"},
 		text = {
@@ -546,11 +521,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00029",
-		linknext = "block_00031",
-		line = 157,
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 147,
 	},
-	block_00031 = {
+	block_00030 = {
 		{"bg", file="black", lv=9, id=9, alpha=200, time=1000, path=":bg/"},
 		{"text"},
 		text = {
@@ -562,11 +537,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00030",
-		linknext = "block_00032",
-		line = 165,
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 155,
 	},
-	block_00032 = {
+	block_00031 = {
 		{"bg", file="black", lv=9, id=9, alpha=230, time=1000, path=":bg/"},
 		{"text"},
 		text = {
@@ -578,11 +553,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00031",
-		linknext = "block_00033",
-		line = 170,
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 160,
 	},
-	block_00033 = {
+	block_00032 = {
 		{"bg", file="black", path=":bg/"},
 		{"text"},
 		text = {
@@ -597,11 +572,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00032",
-		linknext = "block_00034",
-		line = 175,
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 165,
 	},
-	block_00034 = {
+	block_00033 = {
 		{"bgm", stop=1, time=2000},
 		{"se", stop=1, id=-1, time=2000},
 		{"vostop", stop=1, time=2000},
@@ -626,11 +601,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00033",
-		linknext = "block_00035",
-		line = 193,
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 183,
 	},
-	block_00035 = {
+	block_00034 = {
 		{"msgoff"},
 		{"bg", file="bg002c", path=":bg/", sync=0},
 		{"extrans", time=2000},
@@ -655,11 +630,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00034",
-		linknext = "block_00036",
-		line = 216,
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 206,
 	},
-	block_00036 = {
+	block_00035 = {
 		{"fg", ch="バアさん", size="no", mode=3, path=":fg/baa/no/", file="baa_noa0200", face="a0001", head="baa_noa", ex05="baa_noa0000", lv=3, id=13},
 		{"text"},
 		text = {
@@ -676,11 +651,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00035",
-		linknext = "block_00037",
-		line = 224,
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 214,
 	},
-	block_00037 = {
+	block_00036 = {
 		{"fg", ch="バアさん", size="no", mode=3, path=":fg/baa/no/", file="baa_noa0200", face="a0014", head="baa_noa", ex05="baa_noa0000", lv=3, id=13},
 		{"text"},
 		text = {
@@ -697,11 +672,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00036",
-		linknext = "block_00038",
-		line = 232,
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 222,
 	},
-	block_00038 = {
+	block_00037 = {
 		{"fg", ch="バアさん", size="no", mode=3, path=":fg/baa/no/", file="baa_noa0200", face="a0010", head="baa_noa", ex05="baa_noa0000", lv=3, id=13},
 		{"fgact", ch="バアさん", act="おじぎ", lv=3, id=13},
 		{"text"},
@@ -719,11 +694,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00037",
-		linknext = "block_00039",
-		line = 241,
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 231,
 	},
-	block_00039 = {
+	block_00038 = {
 		{"fg", ch="バアさん", size="no", mode=3, path=":fg/baa/no/", file="baa_noa0210", face="a0002", head="baa_noa", ex05="baa_noa0010", lv=3, id=13},
 		{"text"},
 		delay = {
@@ -745,11 +720,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00038",
-		linknext = "block_00040",
-		line = 250,
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 240,
 	},
-	block_00040 = {
+	block_00039 = {
 		{"fg", ch="バアさん", size="no", mode=3, path=":fg/baa/no/", file="baa_noa0210", face="a0025", head="baa_noa", ex05="baa_noa0010", lv=3, id=13},
 		{"text"},
 		text = {
@@ -764,11 +739,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00039",
-		linknext = "block_00041",
-		line = 257,
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 247,
 	},
-	block_00041 = {
+	block_00040 = {
 		{"fg", ch="バアさん", size="no", mode=3, path=":fg/baa/no/", file="baa_noa0200", face="a0015", head="baa_noa", ex05="baa_noa0000", lv=3, id=13},
 		{"text"},
 		text = {
@@ -783,11 +758,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00040",
-		linknext = "block_00042",
-		line = 264,
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 254,
 	},
-	block_00042 = {
+	block_00041 = {
 		{"msgoff"},
 		{"fg", mode=-2, sync=0},
 		{"bg", y=20, file="zbg002c", path=":bg/", ax=1280, ay=720, bx=-640, by=-360, sync=0},
@@ -808,11 +783,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00041",
-		linknext = "block_00043",
-		line = 277,
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 267,
 	},
-	block_00043 = {
+	block_00042 = {
 		{"fg", ch="バアさん", size="z1", mode=3, path=":fg/baa/z1/", file="baa_z1a0200", face="a0009", head="baa_z1a", ex05="baa_z1a0000", lv=4, id=13},
 		{"text"},
 		delay = {
@@ -834,11 +809,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00042",
-		linknext = "block_00044",
-		line = 286,
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 276,
 	},
-	block_00044 = {
+	block_00043 = {
 		{"fg", ch="バアさん", size="z1", mode=3, path=":fg/baa/z1/", file="baa_z1a0200", face="a0002", head="baa_z1a", ex05="baa_z1a0000", lv=4, id=13},
 		{"text"},
 		text = {
@@ -853,11 +828,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00043",
-		linknext = "block_00045",
-		line = 293,
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 283,
 	},
-	block_00045 = {
+	block_00044 = {
 		{"fg", ch="バアさん", size="z1", mode=3, path=":fg/baa/z1/", file="baa_z1a0210", face="a0001", head="baa_z1a", ex05="baa_z1a0010", lv=4, id=13},
 		{"text"},
 		text = {
@@ -874,11 +849,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00044",
-		linknext = "block_00046",
-		line = 301,
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 291,
 	},
-	block_00046 = {
+	block_00045 = {
 		{"fg", ch="バアさん", size="z1", mode=3, path=":fg/baa/z1/", file="baa_z1a0210", face="a0015", head="baa_z1a", ex05="baa_z1a0010", lv=4, id=13},
 		{"text"},
 		delay = {
@@ -900,11 +875,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00045",
-		linknext = "block_00047",
-		line = 310,
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 300,
 	},
-	block_00047 = {
+	block_00046 = {
 		{"bgm", stop=1},
 		{"bg", time=2000, file="black", path=":bg/"},
 		{"ex", time=2000, func="wait"},
@@ -924,11 +899,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00046",
-		linknext = "block_00048",
-		line = 329,
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 319,
 	},
-	block_00048 = {
+	block_00047 = {
 		{"text"},
 		text = {
 			ja = {
@@ -942,11 +917,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00047",
-		linknext = "block_00049",
-		line = 331,
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 321,
 	},
-	block_00049 = {
+	block_00048 = {
 		{"text"},
 		text = {
 			ja = {
@@ -962,11 +937,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00048",
-		linknext = "block_00050",
-		line = 334,
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 324,
 	},
-	block_00050 = {
+	block_00049 = {
 		{"text"},
 		text = {
 			ja = {
@@ -978,11 +953,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00049",
-		linknext = "block_00051",
-		line = 337,
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 327,
 	},
-	block_00051 = {
+	block_00050 = {
 		{"bg", y=100, speed=150000, time=2000, file="zbg003a", path=":bg/", x2=-640, y2=100, x=640, ax=1280, ay=720, bx=-640, by=-360},
 		{"text"},
 		text = {
@@ -999,11 +974,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00050",
-		linknext = "block_00052",
-		line = 343,
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 333,
 	},
-	block_00052 = {
+	block_00051 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1019,11 +994,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00051",
-		linknext = "block_00053",
-		line = 346,
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 336,
 	},
-	block_00053 = {
+	block_00052 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1039,11 +1014,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00052",
-		linknext = "block_00054",
-		line = 349,
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 339,
 	},
-	block_00054 = {
+	block_00053 = {
 		{"bg", file="bg004a", path=":bg/"},
 		{"se", stop=1, time=2000, id=1},
 		{"se", file="se車の走行音_b", time=1000, loop=1, id=2},
@@ -1062,11 +1037,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00053",
-		linknext = "block_00055",
-		line = 365,
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 355,
 	},
-	block_00055 = {
+	block_00054 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1078,11 +1053,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00054",
-		linknext = "block_00056",
-		line = 371,
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 361,
 	},
-	block_00056 = {
+	block_00055 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1094,11 +1069,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00055",
-		linknext = "block_00057",
-		line = 374,
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 364,
 	},
-	block_00057 = {
+	block_00056 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1110,11 +1085,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00056",
-		linknext = "block_00058",
-		line = 377,
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 367,
 	},
-	block_00058 = {
+	block_00057 = {
 		{"se", stop=1, time=1000, id=2},
 		{"cgdel", id=-1},
 		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
@@ -1128,11 +1103,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00057",
-		linknext = "block_00059",
-		line = 387,
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 377,
 	},
-	block_00059 = {
+	block_00058 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1144,11 +1119,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00058",
-		linknext = "block_00060",
-		line = 390,
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 380,
 	},
-	block_00060 = {
+	block_00059 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1160,11 +1135,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00059",
-		linknext = "block_00061",
-		line = 393,
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 383,
 	},
-	block_00061 = {
+	block_00060 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1174,11 +1149,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00060",
-		linknext = "block_00062",
-		line = 395,
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 385,
 	},
-	block_00062 = {
+	block_00061 = {
 		{"quake", dir="v"},
 		{"text"},
 		text = {
@@ -1189,11 +1164,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00061",
-		linknext = "block_00063",
-		line = 400,
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 390,
 	},
-	block_00063 = {
+	block_00062 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1203,11 +1178,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00062",
-		linknext = "block_00064",
-		line = 402,
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 392,
 	},
-	block_00064 = {
+	block_00063 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1219,11 +1194,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00063",
-		linknext = "block_00065",
-		line = 405,
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 395,
 	},
-	block_00065 = {
+	block_00064 = {
 		{"se", file="se車のドア開ける", id=1},
 		{"text"},
 		text = {
@@ -1234,11 +1209,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00064",
-		linknext = "block_00066",
-		line = 411,
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 401,
 	},
-	block_00066 = {
+	block_00065 = {
 		{"bg", speed=5000, file="zev_fiv_c01_01", path=":ev/ev_fiv_c01/", x2=300, y2=-150, x=0, y=150, set="ev_fiv_c01", ax=1280, ay=720, bx=-640, by=-360},
 		{"ex", time=3000, func="wait"},
 		{"bg", file="ev_fiv_c01_01", path=":ev/ev_fiv_c01/", set="ev_fiv_c01"},
@@ -1254,11 +1229,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00065",
-		linknext = "block_00067",
-		line = 422,
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 412,
 	},
-	block_00067 = {
+	block_00066 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1270,11 +1245,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00066",
-		linknext = "block_00068",
-		line = 425,
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 415,
 	},
-	block_00068 = {
+	block_00067 = {
 		{"se", stop=1, time=500, id=1},
 		{"text"},
 		text = {
@@ -1289,11 +1264,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00067",
-		linknext = "block_00069",
-		line = 432,
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 422,
 	},
-	block_00069 = {
+	block_00068 = {
 		{"se", stop=1, time=500, id=2},
 		{"bg", speed=150000, time=2000, file="zev_fiv_c01_01", path=":ev/ev_fiv_c01/", x2=-200, y2=300, x=300, y=300, set="ev_fiv_c01", ax=1280, ay=720, bx=-640, by=-360},
 		{"text"},
@@ -1305,11 +1280,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00068",
-		linknext = "block_00070",
-		line = 438,
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 428,
 	},
-	block_00070 = {
+	block_00069 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1321,11 +1296,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00069",
-		linknext = "block_00071",
-		line = 444,
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 434,
 	},
-	block_00071 = {
+	block_00070 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1337,11 +1312,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00070",
-		linknext = "block_00072",
-		line = 447,
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 437,
 	},
-	block_00072 = {
+	block_00071 = {
 		{"text"},
 		text = {
 			vo = {
@@ -1355,11 +1330,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00071",
-		linknext = "block_00073",
-		line = 452,
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 442,
 	},
-	block_00073 = {
+	block_00072 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1370,11 +1345,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00072",
-		linknext = "block_00074",
-		line = 455,
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 445,
 	},
-	block_00074 = {
+	block_00073 = {
 		{"bg", y=300, file="zev_fiv_c01_02", path=":ev/ev_fiv_c01/", set="ev_fiv_c01", ax=1280, ay=720, bx=-640, by=-360},
 		{"text"},
 		text = {
@@ -1389,11 +1364,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00073",
-		linknext = "block_00075",
-		line = 465,
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 455,
 	},
-	block_00075 = {
+	block_00074 = {
 		{"bg", time=500, file="ev_fiv_c01_02", path=":ev/ev_fiv_c01/", set="ev_fiv_c01"},
 		{"text"},
 		text = {
@@ -1415,11 +1390,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00074",
-		linknext = "block_00076",
-		line = 475,
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 465,
 	},
-	block_00076 = {
+	block_00075 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1430,11 +1405,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00075",
-		linknext = "block_00077",
-		line = 480,
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 470,
 	},
-	block_00077 = {
+	block_00076 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1444,11 +1419,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00076",
-		linknext = "block_00078",
-		line = 483,
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 473,
 	},
-	block_00078 = {
+	block_00077 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1464,11 +1439,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00077",
-		linknext = "block_00079",
-		line = 486,
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 476,
 	},
-	block_00079 = {
+	block_00078 = {
 		{"text"},
 		text = {
 			vo = {
@@ -1484,11 +1459,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00078",
-		linknext = "block_00080",
-		line = 492,
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 482,
 	},
-	block_00080 = {
+	block_00079 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1499,11 +1474,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00079",
-		linknext = "block_00081",
-		line = 495,
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 485,
 	},
-	block_00081 = {
+	block_00080 = {
 		{"se", file="se紙系_ページめくり早", id=1},
 		{"text"},
 		text = {
@@ -1516,11 +1491,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00080",
-		linknext = "block_00082",
-		line = 500,
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 490,
 	},
-	block_00082 = {
+	block_00081 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1530,11 +1505,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00081",
-		linknext = "block_00083",
-		line = 502,
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 492,
 	},
-	block_00083 = {
+	block_00082 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1544,11 +1519,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00082",
-		linknext = "block_00084",
-		line = 504,
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 494,
 	},
-	block_00084 = {
+	block_00083 = {
 		{"se", stop=1, time=500, id=1},
 		{"bg", sync=0, face=1, file="ev_fiv_c01_03", time=400, path=":ev/ev_fiv_c01/", set="ev_fiv_c01"},
 		{"text"},
@@ -1564,11 +1539,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00083",
-		linknext = "block_00085",
-		line = 513,
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 503,
 	},
-	block_00085 = {
+	block_00084 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1578,11 +1553,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00084",
-		linknext = "block_00086",
-		line = 515,
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 505,
 	},
-	block_00086 = {
+	block_00085 = {
 		{"bg", sync=0, face=1, file="ev_fiv_c01_02", time=400, path=":ev/ev_fiv_c01/", set="ev_fiv_c01"},
 		{"text"},
 		text = {
@@ -1597,11 +1572,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00085",
-		linknext = "block_00087",
-		line = 522,
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 512,
 	},
-	block_00087 = {
+	block_00086 = {
 		{"text"},
 		text = {
 			vo = {
@@ -1617,11 +1592,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00086",
-		linknext = "block_00088",
-		line = 528,
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 518,
 	},
-	block_00088 = {
+	block_00087 = {
 		{"text"},
 		text = {
 			vo = {
@@ -1635,11 +1610,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00087",
-		linknext = "block_00089",
-		line = 533,
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 523,
 	},
-	block_00089 = {
+	block_00088 = {
 		{"text"},
 		text = {
 			vo = {
@@ -1653,11 +1628,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00088",
-		linknext = "block_00090",
-		line = 538,
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 528,
 	},
-	block_00090 = {
+	block_00089 = {
 		{"text"},
 		text = {
 			vo = {
@@ -1673,11 +1648,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00089",
-		linknext = "block_00091",
-		line = 542,
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 532,
 	},
-	block_00091 = {
+	block_00090 = {
 		{"bg", sync=0, face=1, file="ev_fiv_c01_03", time=400, path=":ev/ev_fiv_c01/", set="ev_fiv_c01"},
 		{"text"},
 		text = {
@@ -1694,11 +1669,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00090",
-		linknext = "block_00092",
-		line = 548,
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 538,
 	},
-	block_00092 = {
+	block_00091 = {
 		{"se", file="se鐘", id=1},
 		{"text"},
 		text = {
@@ -1709,11 +1684,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00091",
-		linknext = "block_00093",
-		line = 555,
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 545,
 	},
-	block_00093 = {
+	block_00092 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1725,11 +1700,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00092",
-		linknext = "block_00094",
-		line = 560,
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 550,
 	},
-	block_00094 = {
+	block_00093 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1740,11 +1715,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00093",
-		linknext = "block_00095",
-		line = 563,
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 553,
 	},
-	block_00095 = {
+	block_00094 = {
 		{"text"},
 		text = {
 			ja = {
@@ -1756,11 +1731,11 @@ ast = {
 				},
 			},
 		},
-		linkback = "block_00094",
-		linknext = "block_00096",
-		line = 566,
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 556,
 	},
-	block_00096 = {
+	block_00095 = {
 		{"se", stop=1, time=500, id=1},
 		{"bgm", stop=1},
 		{"bgm", stop=1, time=3000},
@@ -1784,11 +1759,10 @@ ast = {
 		{"ex", time=1000, func="wait"},
 		{"excall", file="01_01プロローグ_02"},
 		{"text"},
-		linkback = "block_00095",
-		line = 585,
+		linkback = "block_00094",
+		line = 575,
 	},
 	label = {
 		top = { block="block_00000", label=1 },
-		next = { block="block_00001", label=1 },
 	},
 }

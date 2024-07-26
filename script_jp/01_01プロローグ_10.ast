@@ -683,7 +683,7 @@ ast = {
 					name = {"奏命"},
 					"「授業を受けてみて分かったと思うけれど、",
 					{"rt2"},
-					"途中の工程からついていくのは大変でしょう？」",
+					"途中の行程からついていくのは大変でしょう？」",
 					{"rt2"},
 				},
 			},
@@ -2609,7 +2609,7 @@ ast = {
 	},
 	block_00139 = {
 		{"bg", x=-600, y=40, time=500, file="zbg025a", path=":bg/", ax=1280, ay=720, bx=-640, by=-360},
-		{"se", file="se椅子引きずる2", id=1},
+		{"se", file="se物を置く音02", id=1},
 		{"fg", ch="龍司", size="z1", ex01="a0099", my=40, mode=3, resize=1, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0001", head="ryu_z1a", lv=4, id=13},
 		{"text"},
 		text = {
@@ -2626,7 +2626,7 @@ ast = {
 		},
 		linkback = "block_00138",
 		linknext = "block_00140",
-		line = 761,
+		line = 762,
 	},
 	block_00140 = {
 		{"text"},
@@ -2641,7 +2641,7 @@ ast = {
 		},
 		linkback = "block_00139",
 		linknext = "block_00141",
-		line = 764,
+		line = 765,
 	},
 	block_00141 = {
 		{"text"},
@@ -2657,7 +2657,7 @@ ast = {
 		},
 		linkback = "block_00140",
 		linknext = "block_00142",
-		line = 767,
+		line = 768,
 	},
 	block_00142 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0010", head="ryu_z1a", lv=4, id=13},
@@ -2678,7 +2678,7 @@ ast = {
 		},
 		linkback = "block_00141",
 		linknext = "block_00143",
-		line = 773,
+		line = 774,
 	},
 	block_00143 = {
 		{"msgoff"},
@@ -2702,7 +2702,7 @@ ast = {
 		},
 		linkback = "block_00142",
 		linknext = "block_00144",
-		line = 785,
+		line = 786,
 	},
 	block_00144 = {
 		{"fg", ch="イヴ", size="z1", mode=3, path=":fg/eve/z1/", file="eve_z1b0200", face="b0004", head="eve_z1b", ex05="eve_z1b0000", lv=4, id=13},
@@ -2723,7 +2723,7 @@ ast = {
 		},
 		linkback = "block_00143",
 		linknext = "block_00145",
-		line = 791,
+		line = 792,
 	},
 	block_00145 = {
 		{"text"},
@@ -2738,7 +2738,7 @@ ast = {
 		},
 		linkback = "block_00144",
 		linknext = "block_00146",
-		line = 794,
+		line = 795,
 	},
 	block_00146 = {
 		{"fg", ch="奏命", size="no", mode=1, path=":fg/kan/no/", file="kan_nob0200", face="b0053", head="kan_nob", ex05="kan_nob0000", lv=3, id=200},
@@ -2757,7 +2757,7 @@ ast = {
 		},
 		linkback = "block_00145",
 		linknext = "block_00147",
-		line = 798,
+		line = 799,
 	},
 	block_00147 = {
 		{"msgoff"},
@@ -2781,7 +2781,7 @@ ast = {
 		},
 		linkback = "block_00146",
 		linknext = "block_00148",
-		line = 808,
+		line = 809,
 	},
 	block_00148 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0001", head="ryu_z1a", lv=4, id=13},
@@ -2802,7 +2802,7 @@ ast = {
 		},
 		linkback = "block_00147",
 		linknext = "block_00149",
-		line = 814,
+		line = 815,
 	},
 	block_00149 = {
 		{"text"},
@@ -2819,7 +2819,7 @@ ast = {
 		},
 		linkback = "block_00148",
 		linknext = "block_00150",
-		line = 818,
+		line = 819,
 	},
 	block_00150 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0002", head="ryu_z1a", lv=4, id=13},
@@ -2840,7 +2840,7 @@ ast = {
 		},
 		linkback = "block_00149",
 		linknext = "block_00151",
-		line = 824,
+		line = 825,
 	},
 	block_00151 = {
 		{"text"},
@@ -2855,7 +2855,7 @@ ast = {
 		},
 		linkback = "block_00150",
 		linknext = "block_00152",
-		line = 827,
+		line = 828,
 	},
 	block_00152 = {
 		{"fg", ch="イヴ", size="no", mode=1, resize=1, path=":fg/eve/no/", file="eve_noa0210", face="a0015", head="eve_noa", ex05="eve_noa0010", lv=3, id=200},
@@ -2874,7 +2874,7 @@ ast = {
 		},
 		linkback = "block_00151",
 		linknext = "block_00153",
-		line = 832,
+		line = 833,
 	},
 	block_00153 = {
 		{"fg", ch="奏命", size="no", mode=1, path=":fg/kan/no/", file="kan_noa0200", face="a0001", head="kan_noa", ex05="kan_noa0000", lv=3, id=200},
@@ -2895,7 +2895,7 @@ ast = {
 		},
 		linkback = "block_00152",
 		linknext = "block_00154",
-		line = 838,
+		line = 839,
 	},
 	block_00154 = {
 		{"fg", ch="奏命", size="no", mode=1, path=":fg/kan/no/", file="kan_noa0200", face="a0001", head="kan_noa", ex05="kan_noa0000", lv=3, id=200},
@@ -2914,7 +2914,7 @@ ast = {
 		},
 		linkback = "block_00153",
 		linknext = "block_00155",
-		line = 843,
+		line = 844,
 	},
 	block_00155 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0002", head="ryu_z1a", lv=4, id=13},
@@ -2934,7 +2934,7 @@ ast = {
 		},
 		linkback = "block_00154",
 		linknext = "block_00156",
-		line = 849,
+		line = 850,
 	},
 	block_00156 = {
 		{"text"},
@@ -2950,7 +2950,7 @@ ast = {
 		},
 		linkback = "block_00155",
 		linknext = "block_00157",
-		line = 852,
+		line = 853,
 	},
 	block_00157 = {
 		{"text"},
@@ -2964,7 +2964,7 @@ ast = {
 		},
 		linkback = "block_00156",
 		linknext = "block_00158",
-		line = 854,
+		line = 855,
 	},
 	block_00158 = {
 		{"text"},
@@ -2980,7 +2980,7 @@ ast = {
 		},
 		linkback = "block_00157",
 		linknext = "block_00159",
-		line = 857,
+		line = 858,
 	},
 	block_00159 = {
 		{"msgoff"},
@@ -3004,7 +3004,7 @@ ast = {
 		},
 		linkback = "block_00158",
 		linknext = "block_00160",
-		line = 870,
+		line = 871,
 	},
 	block_00160 = {
 		{"fg", ch="イヴ", size="no", mode=3, path=":fg/eve/no/", file="eve_nob0210", face="b0052", head="eve_nob", ex05="eve_nob0010", x=-230, lv=3, id=9},
@@ -3023,7 +3023,7 @@ ast = {
 		},
 		linkback = "block_00159",
 		linknext = "block_00161",
-		line = 875,
+		line = 876,
 	},
 	block_00161 = {
 		{"fg", ch="龍司", size="no", ex01="a0099", mode=3, path=":fg/ryu/no/", file="ryu_noa0200", face="a0009", head="ryu_noa", x=230, lv=3, id=10},
@@ -3042,7 +3042,7 @@ ast = {
 		},
 		linkback = "block_00160",
 		linknext = "block_00162",
-		line = 880,
+		line = 881,
 	},
 	block_00162 = {
 		{"fg", ch="イヴ", size="no", mode=3, path=":fg/eve/no/", file="eve_noa0210", face="a0004", head="eve_noa", ex05="eve_noa0010", x=-230, lv=3, id=9},
@@ -3061,7 +3061,7 @@ ast = {
 		},
 		linkback = "block_00161",
 		linknext = "block_00163",
-		line = 885,
+		line = 886,
 	},
 	block_00163 = {
 		{"fg", ch="イヴ", size="no", mode=3, path=":fg/eve/no/", file="eve_noa0210", face="a0052", head="eve_noa", ex05="eve_noa0010", x=-230, lv=3, id=9},
@@ -3082,7 +3082,7 @@ ast = {
 		},
 		linkback = "block_00162",
 		linknext = "block_00164",
-		line = 891,
+		line = 892,
 	},
 	block_00164 = {
 		{"text"},
@@ -3097,7 +3097,7 @@ ast = {
 		},
 		linkback = "block_00163",
 		linknext = "block_00165",
-		line = 894,
+		line = 895,
 	},
 	block_00165 = {
 		{"msgoff"},
@@ -3120,7 +3120,7 @@ ast = {
 		},
 		linkback = "block_00164",
 		linknext = "block_00166",
-		line = 904,
+		line = 905,
 	},
 	block_00166 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", face="b0053", head="kan_z1b", ex05="kan_z1b0000", lv=4, id=13},
@@ -3144,7 +3144,7 @@ ast = {
 		},
 		linkback = "block_00165",
 		linknext = "block_00167",
-		line = 910,
+		line = 911,
 	},
 	block_00167 = {
 		{"text"},
@@ -3159,7 +3159,7 @@ ast = {
 		},
 		linkback = "block_00166",
 		linknext = "block_00168",
-		line = 913,
+		line = 914,
 	},
 	block_00168 = {
 		{"text"},
@@ -3176,7 +3176,7 @@ ast = {
 		},
 		linkback = "block_00167",
 		linknext = "block_00169",
-		line = 917,
+		line = 918,
 	},
 	block_00169 = {
 		{"text"},
@@ -3193,7 +3193,7 @@ ast = {
 		},
 		linkback = "block_00168",
 		linknext = "block_00170",
-		line = 921,
+		line = 922,
 	},
 	block_00170 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", face="a0053", head="kan_z1a", ex05="kan_z1a0000", lv=4, id=13},
@@ -3214,7 +3214,7 @@ ast = {
 		},
 		linkback = "block_00169",
 		linknext = "block_00171",
-		line = 927,
+		line = 928,
 	},
 	block_00171 = {
 		{"text"},
@@ -3229,7 +3229,7 @@ ast = {
 		},
 		linkback = "block_00170",
 		linknext = "block_00172",
-		line = 930,
+		line = 931,
 	},
 	block_00172 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", face="b0001", head="kan_z1b", ex05="kan_z1b0000", lv=4, id=13},
@@ -3248,7 +3248,7 @@ ast = {
 		},
 		linkback = "block_00171",
 		linknext = "block_00173",
-		line = 935,
+		line = 936,
 	},
 	block_00173 = {
 		{"text"},
@@ -3265,7 +3265,7 @@ ast = {
 		},
 		linkback = "block_00172",
 		linknext = "block_00174",
-		line = 939,
+		line = 940,
 	},
 	block_00174 = {
 		{"text"},
@@ -3282,7 +3282,7 @@ ast = {
 		},
 		linkback = "block_00173",
 		linknext = "block_00175",
-		line = 943,
+		line = 944,
 	},
 	block_00175 = {
 		{"text"},
@@ -3299,7 +3299,7 @@ ast = {
 		},
 		linkback = "block_00174",
 		linknext = "block_00176",
-		line = 947,
+		line = 948,
 	},
 	block_00176 = {
 		{"msgoff"},
@@ -3322,7 +3322,7 @@ ast = {
 		},
 		linkback = "block_00175",
 		linknext = "block_00177",
-		line = 957,
+		line = 958,
 	},
 	block_00177 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0028", head="ryu_z1a", lv=4, id=10},
@@ -3341,7 +3341,7 @@ ast = {
 		},
 		linkback = "block_00176",
 		linknext = "block_00178",
-		line = 962,
+		line = 963,
 	},
 	block_00178 = {
 		{"text"},
@@ -3358,7 +3358,7 @@ ast = {
 		},
 		linkback = "block_00177",
 		linknext = "block_00179",
-		line = 966,
+		line = 967,
 	},
 	block_00179 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0009", head="ryu_z1a", lv=4, id=10},
@@ -3376,7 +3376,7 @@ ast = {
 		},
 		linkback = "block_00178",
 		linknext = "block_00180",
-		line = 972,
+		line = 973,
 	},
 	block_00180 = {
 		{"text"},
@@ -3391,7 +3391,7 @@ ast = {
 		},
 		linkback = "block_00179",
 		linknext = "block_00181",
-		line = 975,
+		line = 976,
 	},
 	block_00181 = {
 		{"text"},
@@ -3406,7 +3406,7 @@ ast = {
 		},
 		linkback = "block_00180",
 		linknext = "block_00182",
-		line = 978,
+		line = 979,
 	},
 	block_00182 = {
 		{"bgm", stop=1},
@@ -3429,7 +3429,7 @@ ast = {
 		},
 		linkback = "block_00181",
 		linknext = "block_00183",
-		line = 992,
+		line = 993,
 	},
 	block_00183 = {
 		{"text"},
@@ -3443,7 +3443,7 @@ ast = {
 		},
 		linkback = "block_00182",
 		linknext = "block_00184",
-		line = 994,
+		line = 995,
 	},
 	block_00184 = {
 		{"text"},
@@ -3458,7 +3458,7 @@ ast = {
 		},
 		linkback = "block_00183",
 		linknext = "block_00185",
-		line = 999,
+		line = 1000,
 	},
 	block_00185 = {
 		{"fg", ch="くくる", size="no", mode=3, path=":fg/kuk/no/", file="kuk_noa0200", face="a0019", head="kuk_noa", ex05="kuk_noa0000", x=380, lv=3, id=8},
@@ -3477,7 +3477,7 @@ ast = {
 		},
 		linkback = "block_00184",
 		linknext = "block_00186",
-		line = 1004,
+		line = 1005,
 	},
 	block_00186 = {
 		{"fg", ch="イヴ", size="no", mode=3, path=":fg/eve/no/", file="eve_nob0200", face="b0019", head="eve_nob", ex05="eve_nob0000", x=-380, lv=3, id=7},
@@ -3496,7 +3496,7 @@ ast = {
 		},
 		linkback = "block_00185",
 		linknext = "block_00187",
-		line = 1009,
+		line = 1010,
 	},
 	block_00187 = {
 		{"fg", ch="奏命", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", face="a0019", head="kan_noa", ex05="kan_noa0000", x=0, lv=3, id=13},
@@ -3515,7 +3515,7 @@ ast = {
 		},
 		linkback = "block_00186",
 		linknext = "block_00188",
-		line = 1014,
+		line = 1015,
 	},
 	block_00188 = {
 		{"msgoff"},
@@ -3539,7 +3539,7 @@ ast = {
 		},
 		linkback = "block_00187",
 		linknext = "block_00189",
-		line = 1025,
+		line = 1026,
 	},
 	block_00189 = {
 		{"text"},
@@ -3557,7 +3557,7 @@ ast = {
 		},
 		linkback = "block_00188",
 		linknext = "block_00190",
-		line = 1028,
+		line = 1029,
 	},
 	block_00190 = {
 		{"msgoff"},
@@ -3580,7 +3580,7 @@ ast = {
 		},
 		linkback = "block_00189",
 		linknext = "block_00191",
-		line = 1038,
+		line = 1039,
 	},
 	block_00191 = {
 		{"quake"},
@@ -3601,7 +3601,7 @@ ast = {
 		},
 		linkback = "block_00190",
 		linknext = "block_00192",
-		line = 1045,
+		line = 1046,
 	},
 	block_00192 = {
 		{"text"},
@@ -3616,7 +3616,7 @@ ast = {
 		},
 		linkback = "block_00191",
 		linknext = "block_00193",
-		line = 1048,
+		line = 1049,
 	},
 	block_00193 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0026", head="ryu_z1a", lv=4, id=10},
@@ -3634,7 +3634,7 @@ ast = {
 		},
 		linkback = "block_00192",
 		linknext = "block_00194",
-		line = 1054,
+		line = 1055,
 	},
 	block_00194 = {
 		{"text"},
@@ -3648,7 +3648,7 @@ ast = {
 		},
 		linkback = "block_00193",
 		linknext = "block_00195",
-		line = 1056,
+		line = 1057,
 	},
 	block_00195 = {
 		{"text"},
@@ -3664,7 +3664,7 @@ ast = {
 		},
 		linkback = "block_00194",
 		linknext = "block_00196",
-		line = 1059,
+		line = 1060,
 	},
 	block_00196 = {
 		{"text"},
@@ -3680,7 +3680,7 @@ ast = {
 		},
 		linkback = "block_00195",
 		linknext = "block_00197",
-		line = 1062,
+		line = 1063,
 	},
 	block_00197 = {
 		{"quake", mode="mw"},
@@ -3696,7 +3696,7 @@ ast = {
 		},
 		linkback = "block_00196",
 		linknext = "block_00198",
-		line = 1067,
+		line = 1068,
 	},
 	block_00198 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=3, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0027", head="ryu_z1a", lv=4, id=10},
@@ -3717,7 +3717,7 @@ ast = {
 		},
 		linkback = "block_00197",
 		linknext = "block_00199",
-		line = 1073,
+		line = 1074,
 	},
 	block_00199 = {
 		{"text"},
@@ -3732,7 +3732,7 @@ ast = {
 		},
 		linkback = "block_00198",
 		linknext = "block_00200",
-		line = 1076,
+		line = 1077,
 	},
 	block_00200 = {
 		{"msgoff"},
@@ -3762,7 +3762,7 @@ ast = {
 		},
 		linkback = "block_00199",
 		linknext = "block_00201",
-		line = 1089,
+		line = 1090,
 	},
 	block_00201 = {
 		{"quake", mode="mw"},
@@ -3782,7 +3782,7 @@ ast = {
 		},
 		linkback = "block_00200",
 		linknext = "block_00202",
-		line = 1095,
+		line = 1096,
 	},
 	block_00202 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", face="a0006", head="kan_z1a", ex05="kan_z1a0000", lv=4, id=13},
@@ -3803,7 +3803,7 @@ ast = {
 		},
 		linkback = "block_00201",
 		linknext = "block_00203",
-		line = 1101,
+		line = 1102,
 	},
 	block_00203 = {
 		{"text"},
@@ -3818,7 +3818,7 @@ ast = {
 		},
 		linkback = "block_00202",
 		linknext = "block_00204",
-		line = 1104,
+		line = 1105,
 	},
 	block_00204 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=1, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0020", head="ryu_z1a", lv=4, id=200},
@@ -3837,7 +3837,7 @@ ast = {
 		},
 		linkback = "block_00203",
 		linknext = "block_00205",
-		line = 1109,
+		line = 1110,
 	},
 	block_00205 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1a0200", face="a0052", head="kan_z1a", ex05="kan_z1a0000", lv=4, id=13},
@@ -3856,7 +3856,7 @@ ast = {
 		},
 		linkback = "block_00204",
 		linknext = "block_00206",
-		line = 1114,
+		line = 1115,
 	},
 	block_00206 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", face="b0052", head="kan_z1b", ex05="kan_z1b0000", lv=4, id=13},
@@ -3875,7 +3875,7 @@ ast = {
 		},
 		linkback = "block_00205",
 		linknext = "block_00207",
-		line = 1119,
+		line = 1120,
 	},
 	block_00207 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", face="b0006", head="kan_z1b", ex05="kan_z1b0000", lv=4, id=13},
@@ -3894,7 +3894,7 @@ ast = {
 		},
 		linkback = "block_00206",
 		linknext = "block_00208",
-		line = 1124,
+		line = 1125,
 	},
 	block_00208 = {
 		{"text"},
@@ -3911,7 +3911,7 @@ ast = {
 		},
 		linkback = "block_00207",
 		linknext = "block_00209",
-		line = 1128,
+		line = 1129,
 	},
 	block_00209 = {
 		{"fg", ch="奏命", size="z1", mode=3, path=":fg/kan/z1/", file="kan_z1b0200", face="b0004", head="kan_z1b", ex05="kan_z1b0000", lv=4, id=13},
@@ -3930,7 +3930,7 @@ ast = {
 		},
 		linkback = "block_00208",
 		linknext = "block_00210",
-		line = 1133,
+		line = 1134,
 	},
 	block_00210 = {
 		{"msgoff"},
@@ -3955,7 +3955,7 @@ ast = {
 		},
 		linkback = "block_00209",
 		linknext = "block_00211",
-		line = 1145,
+		line = 1146,
 	},
 	block_00211 = {
 		{"fg", ch="花", size="no", mode=3, path=":fg/han/no/", file="han_noa0200", face="a0026", head="han_noa", ex05="han_noa0000", x=-380, lv=3, id=7},
@@ -3974,7 +3974,7 @@ ast = {
 		},
 		linkback = "block_00210",
 		linknext = "block_00212",
-		line = 1150,
+		line = 1151,
 	},
 	block_00212 = {
 		{"fg", ch="奏命", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0200", face="a0053", head="kan_noa", ex05="kan_noa0000", x=0, lv=3, id=13},
@@ -3993,7 +3993,7 @@ ast = {
 		},
 		linkback = "block_00211",
 		linknext = "block_00213",
-		line = 1155,
+		line = 1156,
 	},
 	block_00213 = {
 		{"msgoff"},
@@ -4021,7 +4021,7 @@ ast = {
 		},
 		linkback = "block_00212",
 		linknext = "block_00214",
-		line = 1166,
+		line = 1167,
 	},
 	block_00214 = {
 		{"fg", ch="くくる", size="z1", mode=3, path=":fg/kuk/z1/", file="kuk_z1a0200", face="a0001", head="kuk_z1a", ex05="kuk_z1a0000", lv=4, id=8},
@@ -4040,7 +4040,7 @@ ast = {
 		},
 		linkback = "block_00213",
 		linknext = "block_00215",
-		line = 1171,
+		line = 1172,
 	},
 	block_00215 = {
 		{"msgoff"},
@@ -4069,7 +4069,7 @@ ast = {
 		},
 		linkback = "block_00214",
 		linknext = "block_00216",
-		line = 1191,
+		line = 1192,
 	},
 	block_00216 = {
 		{"fg", ch="イヴ", size="z1", mode=3, path=":fg/eve/z1/", file="eve_z1a0210", face="a0052", head="eve_z1a", ex05="eve_z1a0010", lv=4, id=7},
@@ -4088,7 +4088,7 @@ ast = {
 		},
 		linkback = "block_00215",
 		linknext = "block_00217",
-		line = 1196,
+		line = 1197,
 	},
 	block_00217 = {
 		{"text"},
@@ -4103,7 +4103,7 @@ ast = {
 		},
 		linkback = "block_00216",
 		linknext = "block_00218",
-		line = 1199,
+		line = 1200,
 	},
 	block_00218 = {
 		{"fg", ch="イヴ", size="z1", mode=3, path=":fg/eve/z1/", file="eve_z1b0200", face="b0024", head="eve_z1b", ex05="eve_z1b0000", lv=4, id=7},
@@ -4129,7 +4129,7 @@ ast = {
 		},
 		linkback = "block_00217",
 		linknext = "block_00219",
-		line = 1206,
+		line = 1207,
 	},
 	block_00219 = {
 		{"msgoff"},
@@ -4154,7 +4154,7 @@ ast = {
 		},
 		linkback = "block_00218",
 		linknext = "block_00220",
-		line = 1218,
+		line = 1219,
 	},
 	block_00220 = {
 		{"fg", ch="空", size="no", mode=3, path=":fg/sor/no/", file="sor_noa0200", face="a0026", head="sor_noa", ex05="sor_noa0000", x=380, lv=3, id=8},
@@ -4173,7 +4173,7 @@ ast = {
 		},
 		linkback = "block_00219",
 		linknext = "block_00221",
-		line = 1223,
+		line = 1224,
 	},
 	block_00221 = {
 		{"fg", ch="奏命", size="no", mode=3, path=":fg/kan/no/", file="kan_noa0210", face="a0053", head="kan_noa", ex05="kan_noa0010", x=0, lv=3, id=13},
@@ -4192,7 +4192,7 @@ ast = {
 		},
 		linkback = "block_00220",
 		linknext = "block_00222",
-		line = 1228,
+		line = 1229,
 	},
 	block_00222 = {
 		{"msgoff"},
@@ -4222,7 +4222,7 @@ ast = {
 		},
 		linkback = "block_00221",
 		linknext = "block_00223",
-		line = 1241,
+		line = 1242,
 	},
 	block_00223 = {
 		{"text"},
@@ -4237,7 +4237,7 @@ ast = {
 		},
 		linkback = "block_00222",
 		linknext = "block_00224",
-		line = 1244,
+		line = 1245,
 	},
 	block_00224 = {
 		{"fg", ch="イヴ", size="z1", mode=3, path=":fg/eve/z1/", file="eve_z1b0210", face="b0022", head="eve_z1b", ex05="eve_z1b0010", lv=4, id=7},
@@ -4262,7 +4262,7 @@ ast = {
 		},
 		linkback = "block_00223",
 		linknext = "block_00225",
-		line = 1251,
+		line = 1252,
 	},
 	block_00225 = {
 		{"fg", ch="イヴ", size="z1", mode=3, path=":fg/eve/z1/", file="eve_z1b0200", face="b0052", head="eve_z1b", ex05="eve_z1b0000", lv=4, id=7},
@@ -4281,7 +4281,7 @@ ast = {
 		},
 		linkback = "block_00224",
 		linknext = "block_00226",
-		line = 1256,
+		line = 1257,
 	},
 	block_00226 = {
 		{"fg", ch="龍司", size="z1", ex01="a0099", mode=1, path=":fg/ryu/z1/", file="ryu_z1a0200", face="a0010", head="ryu_z1a", lv=4, id=200},
@@ -4302,7 +4302,7 @@ ast = {
 		},
 		linkback = "block_00225",
 		linknext = "block_00227",
-		line = 1262,
+		line = 1263,
 	},
 	block_00227 = {
 		{"bg", y=100, speed=120000, file="zbg025a", path=":bg/", x2=-640, y2=100, x=640, ax=1280, ay=720, bx=-640, by=-360},
@@ -4319,7 +4319,7 @@ ast = {
 		},
 		linkback = "block_00226",
 		linknext = "block_00228",
-		line = 1267,
+		line = 1268,
 	},
 	block_00228 = {
 		{"text"},
@@ -4335,7 +4335,7 @@ ast = {
 		},
 		linkback = "block_00227",
 		linknext = "block_00229",
-		line = 1270,
+		line = 1271,
 	},
 	block_00229 = {
 		{"text"},
@@ -4350,7 +4350,7 @@ ast = {
 		},
 		linkback = "block_00228",
 		linknext = "block_00230",
-		line = 1273,
+		line = 1274,
 	},
 	block_00230 = {
 		{"text"},
@@ -4366,7 +4366,7 @@ ast = {
 		},
 		linkback = "block_00229",
 		linknext = "block_00231",
-		line = 1276,
+		line = 1277,
 	},
 	block_00231 = {
 		{"text"},
@@ -4380,7 +4380,7 @@ ast = {
 		},
 		linkback = "block_00230",
 		linknext = "block_00232",
-		line = 1278,
+		line = 1279,
 	},
 	block_00232 = {
 		{"text"},
@@ -4396,7 +4396,7 @@ ast = {
 		},
 		linkback = "block_00231",
 		linknext = "block_00233",
-		line = 1281,
+		line = 1282,
 	},
 	block_00233 = {
 		{"text"},
@@ -4410,7 +4410,7 @@ ast = {
 		},
 		linkback = "block_00232",
 		linknext = "block_00234",
-		line = 1283,
+		line = 1284,
 	},
 	block_00234 = {
 		{"text"},
@@ -4424,7 +4424,7 @@ ast = {
 		},
 		linkback = "block_00233",
 		linknext = "block_00235",
-		line = 1285,
+		line = 1286,
 	},
 	block_00235 = {
 		{"text"},
@@ -4439,7 +4439,7 @@ ast = {
 		},
 		linkback = "block_00234",
 		linknext = "block_00236",
-		line = 1288,
+		line = 1289,
 	},
 	block_00236 = {
 		{"text"},
@@ -4453,7 +4453,7 @@ ast = {
 		},
 		linkback = "block_00235",
 		linknext = "block_00237",
-		line = 1290,
+		line = 1291,
 	},
 	block_00237 = {
 		{"bgm", stop=1},
@@ -4462,7 +4462,7 @@ ast = {
 		{"excall", file="01_01プロローグ_11"},
 		{"text"},
 		linkback = "block_00236",
-		line = 1294,
+		line = 1295,
 	},
 	label = {
 		top = { block="block_00000", label=1 },
